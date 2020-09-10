@@ -1,0 +1,43 @@
+header{
+    position: relative;
+    background-color: $color-principal;
+    grid-area: header;
+}
+nav{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+nav {
+    ul {
+        list-style-type: none;
+        display: flex;
+        ul {
+            display: none;
+            a {
+                padding: 10px;
+                text-align: left;
+            }
+        }
+    }
+    li {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    a {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color-secundario;
+        background-color: $color-principal;
+    }
+    a:hover {        
+        background-color:#8c312e;
+    }
+}
+nav ul li:hover > ul {
+    display: block;
+}

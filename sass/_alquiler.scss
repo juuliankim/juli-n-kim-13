@@ -1,0 +1,16 @@
+/*FOTOS DE ALQUILER*/
+.padreAlquiler{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+@each $alquiler in imagen-1-1, imagen-1-2, imagen-1-3, imagen-1-4, imagen-1-5, imagen-1-6, imagen-1-7, imagen-1-8,imagen-1-9 {
+    .alquiler-#{$alquiler} { 
+        background-image: url('../imagenes/#{$alquiler}.jpg');
+        width: 500px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+ }

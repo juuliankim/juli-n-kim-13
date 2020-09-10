@@ -1,0 +1,52 @@
+body{
+    font-family: 'Noto Serif', serif;
+    background-image: linear-gradient( $color-principal,$color-blanco);
+}
+span{
+    grid-area: span;
+}
+
+main{
+    grid-area: main;
+    background-color: #d79f9e;
+    div {
+        div {
+            div:hover{
+                transform: scale(1.7); 
+            }
+        }
+        ul {
+            li {
+                margin: 20px;
+            }
+
+        }
+    }
+}
+main section{
+    background-color:$color-principal;
+}
+.fondo{
+    width: 500%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.pexels.com/photos/681361/pexels-photo-681361.jpeg?cs=srgb&dl=pexels-aleksejs-bergmanis-681361.jpg&fm=jpg);
+}
+.linea{
+    border: $color-secundario solid 3px;
+    width: 1fr;
+}
+.borde{
+    border: black solid 2px;
+}
+#cuerpo{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "span span span"
+    ". main ."
+    "footer footer footer";
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 110px 150px auto 140px;
+}

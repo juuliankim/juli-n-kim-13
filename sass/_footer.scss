@@ -1,0 +1,28 @@
+footer{
+    grid-area: footer;
+    justify-content: space-between;
+    div {
+        width: 100px;
+        text-align: center;
+        flex-grow: 1;
+        width: 300px;
+        p { 
+            font-size: 10px;
+        }
+    }
+}
+.fondoFooter{
+    background-color:$color-blanco;
+}
+#tituloFooter{
+    position: absolute;
+    padding-left: 50px;
+    padding-top: 0px;
+    color: #dd4f43;
+}
+.padreFooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+}
