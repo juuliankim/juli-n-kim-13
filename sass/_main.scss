@@ -9,12 +9,6 @@ span{
 main{
     grid-area: main;
     background-color: $color-rosa;
-    div {
-        div {
-            div:hover{
-                transform: scale(1.7); 
-            }
-        }
         ul {
             li {
                 margin: 20px;
@@ -22,7 +16,6 @@ main{
 
         }
     }
-}
 .fondo{
     width: 500%;
     height: 150px;

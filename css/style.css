@@ -1,4 +1,33 @@
 @charset "UTF-8";
+/* line 1, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_card.scss */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s; }
+
+/* On mouse-over, add a deeper shadow */
+/* line 8, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_card.scss */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+/* Add some padding inside the card container */
+/* line 13, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_card.scss */
+.container {
+  padding: 2px 16px; }
+
+/* line 16, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_card.scss */
+.paddingFoto {
+  padding: 100px; }
+
+/* line 19, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_card.scss */
+.foto {
+  padding-bottom: 60px;
+  padding-top: 10px;
+  max-width: 400px;
+  max-height: 550px;
+  background-size: cover;
+  background-position: center; }
+
 /* line 1, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 body {
   font-family: 'Noto Serif', serif;
@@ -12,14 +41,11 @@ span {
 main {
   grid-area: main;
   background-color: #d79f9e; }
-  /* line 14, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
-  main div div div:hover {
-    transform: scale(1.7); }
-  /* line 19, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
-  main div ul li {
+  /* line 13, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+  main ul li {
     margin: 20px; }
 
-/* line 26, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 19, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 .fondo {
   width: 500%;
   height: 150px;
@@ -27,57 +53,57 @@ main {
   background-position: center;
   background-image: url(https://images.pexels.com/photos/681361/pexels-photo-681361.jpeg?cs=srgb&dl=pexels-aleksejs-bergmanis-681361.jpg&fm=jpg); }
 
-/* line 33, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 26, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 .colorPrincipal {
   background-color: #af3d39; }
 
-/* line 36, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 29, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 .linea {
   border: #f2bd6a solid 3px;
   width: 1fr; }
 
-/* line 40, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 33, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 .lineaSecundaria {
   border: #af3d39 solid 3px;
   width: 1fr; }
 
-/* line 44, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 37, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 .cajaRosa {
   background-color: #d79f9e; }
 
-/* line 47, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 40, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 .caja {
   border: #af3d39 solid 2px; }
 
-/* line 50, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 43, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 input[type=text] {
   border: #af3d39 solid 2px; }
 
-/* line 53, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 46, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 input[type=tel] {
   border: #af3d39 solid 2px; }
 
-/* line 56, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 49, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 input[type=email] {
   border: #af3d39 solid 2px; }
 
-/* line 59, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 52, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 input[type=submit] {
   border: #af3d39 solid 2px; }
 
-/* line 62, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 55, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 input[type=reset] {
   border: #af3d39 solid 2px; }
 
-/* line 65, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 58, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 textarea {
   border: #af3d39 solid 2px; }
 
-/* line 68, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 61, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 .borde {
   border: black solid 2px; }
 
-/* line 71, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
+/* line 64, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_main.scss */
 #cuerpo {
   display: grid;
   grid-template-areas: "header header header" "span span span" ". main ." "footer footer footer";
@@ -141,165 +167,14 @@ nav ul li:hover > ul {
 .padding {
   padding: 20px; }
 
-/* FOTOS DE VENTA */
-/* line 2, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.padreVenta {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-1 {
-  background-image: url("../imagenes/imagen-2-1.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-2 {
-  background-image: url("../imagenes/imagen-2-2.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-3 {
-  background-image: url("../imagenes/imagen-2-3.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-4 {
-  background-image: url("../imagenes/imagen-2-4.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-5 {
-  background-image: url("../imagenes/imagen-2-5.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-6 {
-  background-image: url("../imagenes/imagen-2-6.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-7 {
-  background-image: url("../imagenes/imagen-2-7.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-8 {
-  background-image: url("../imagenes/imagen-2-8.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_venta.scss */
-.venta-imagen-2-9 {
-  background-image: url("../imagenes/imagen-2-9.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
 /*FOTOS DE ALQUILER*/
-/* line 2, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.padreAlquiler {
+/* line 2, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler-venta.scss */
+.padreAlquilerVenta {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-1 {
-  background-image: url("../imagenes/imagen-1-1.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-2 {
-  background-image: url("../imagenes/imagen-1-2.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-3 {
-  background-image: url("../imagenes/imagen-1-3.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-4 {
-  background-image: url("../imagenes/imagen-1-4.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-5 {
-  background-image: url("../imagenes/imagen-1-5.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-6 {
-  background-image: url("../imagenes/imagen-1-6.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-7 {
-  background-image: url("../imagenes/imagen-1-7.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-8 {
-  background-image: url("../imagenes/imagen-1-8.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
-
-/* line 9, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_alquiler.scss */
-.alquiler-imagen-1-9 {
-  background-image: url("../imagenes/imagen-1-9.jpg");
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  background-position: center; }
+  align-items: center;
+  justify-content: space-between; }
 
 /* line 1, ../../CURSO DESAROLLO WEB/DESAFIOS/TRECE DESAFIO/julián-kim-13/sass/_titulo.scss */
 h2 {
