@@ -8,7 +8,7 @@ span{
 
 main{
     grid-area: main;
-    background-color: #d79f9e;
+    background-color: $color-rosa;
     div {
         div {
             div:hover{
@@ -23,9 +23,6 @@ main{
         }
     }
 }
-main section{
-    background-color:$color-principal;
-}
 .fondo{
     width: 500%;
     height: 150px;
@@ -33,9 +30,40 @@ main section{
     background-position: center;
     background-image: url(https://images.pexels.com/photos/681361/pexels-photo-681361.jpeg?cs=srgb&dl=pexels-aleksejs-bergmanis-681361.jpg&fm=jpg);
 }
+.colorPrincipal{
+    background-color: $color-principal;
+}
 .linea{
     border: $color-secundario solid 3px;
     width: 1fr;
+}
+.lineaSecundaria{
+    border: $color-principal solid 3px;
+    width: 1fr;
+}
+.cajaRosa{
+    background-color: $color-rosa;
+}
+.caja{
+    border: $color-principal solid 2px;
+}
+input[type=text] {
+    border: $color-principal solid 2px;
+}
+input[type=tel] {
+    border: $color-principal solid 2px;
+}
+input[type=email] {
+    border: $color-principal solid 2px;
+}
+input[type=submit] {
+    border: $color-principal solid 2px;
+}
+input[type=reset] {
+    border: $color-principal solid 2px;
+}
+textarea{
+    border: $color-principal solid 2px;
 }
 .borde{
     border: black solid 2px;
@@ -48,5 +76,5 @@ main section{
     ". main ."
     "footer footer footer";
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 110px 150px auto 140px;
+    grid-template-rows: 110px 150px auto 200px;
 }

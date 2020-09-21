@@ -1,11 +1,11 @@
 footer{
     grid-area: footer;
+    padding-top: 50px;
     justify-content: space-between;
     div {
-        width: 100px;
         text-align: center;
         flex-grow: 1;
-        width: 300px;
+        width: 200px;
         p { 
             font-size: 10px;
         }
